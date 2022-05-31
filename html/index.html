@@ -5,7 +5,6 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="/css/index.css">
-        <link rel="stylesheet" type="text/css" href="/css/normalize.css">
         <title>Colegio San Francisco de Asís</title>
         <!-- fonts -->
         <style>
@@ -14,21 +13,18 @@
     </head>
     <body>
         <header>
-            <nav>
-                <div class="container">
+            <nav> 
                     <a href="index.html"><img src="/img/logo.png" alt="Logo del colegio San Francisco de Asís" class="logo-colegio"></a>
-                    <ul class-="secondary-nav">
+                    <ul class="secondary-nav">
                         <li ><a href="index.html" class="current">Inicio</a></li>
                         <li><a href="sobre_nosotros.html">Sobre Nosotros</a></li>
                         <li><a href="niveles.html">Niveles</a></li>
                         <li><a href="noticias.html">Noticias</a></li>
                         <li><a href="contacto.html">Contacto</a></li>
                     </ul>
-                </div>
             </nav>
         </header>
         <section class="hero">
-            <div class="container">
                 <div class="left-col">
                     <h1>San Francisco De Asís</h1> 
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p> 
@@ -36,13 +32,48 @@
                 <div class="right-col">
                     <img src="/img/placeholder.jpg" alt="Imagen del colegio">
                 </div>
-            </div>
         </section>
         <section class="quienes-somos">
-            <div class="container">
-                    <h1 class="titulo-qs">Quienes somos</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            </div>
+            <h2 class="titulo-qs">Quienes somos</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+            <button id="btn-saber-mas" class="btn-saber-mas">Saber más <img src="/img/ico/arrow.svg" alt="arrow icon">
+            </button>
         </section>
+        <section class="niveles-academicos">
+            <h2 class="titulo-na">Niveles académicos</h2>
+            <div class="carta-nivel">
+                <img src="/img/placeholder.jpg" alt="Imagen nivel inicial" class="img-carta">
+                <h3 class="titulo-carta">Inicial</h3>
+                <p class="desc-carta">Jardín y Preescolar <br> Turno Mañana y tarde</p>
+                <button class="btn-saber-mas">Saber más <img src="/img/ico/arrow-white.svg" alt="arrow icon"></button>
+            </div>
+            <div class="carta-nivel">
+                <img src="/img/placeholder.jpg" alt="Imagen escolar básica" class="img-carta">
+                <h3 class="titulo-carta">Escolar Básica</h3>
+                <p class="desc-carta">1er a 9no Grado <br> Turno Mañana y tarde</p>
+                <button class="btn-saber-mas">Saber más <img src="/img/ico/arrow-white.svg" alt="arrow icon"></button>
+            </div>
+            <div class="carta-nivel">
+                <img src="/img/placeholder.jpg" alt="Imagen nivel medio" class="img-carta">
+                <h3 class="titulo-carta">Nivel Medio</h3>
+                <p class="desc-carta"> B.C.S y B.T.I <br>Turno Mañana</p>
+                <button class="btn-saber-mas">Saber más <img src="/img/ico/arrow-white.svg" alt="arrow icon"></button>
+            </div>
+            <button class="btn-niveles">Ver todos los niveles académicos <img src="/img/ico/arrow-white.svg" alt="arrow icon"></button>
+        </section>
+        <section class="formulario-contacto">
+            <form>
+                <div class="left-col">
+                    <input type="text" required placeholder="Nombre">
+                    <input type="email" name="Email" id="email" required placeholder="E-mail">
+                    <textarea maxlength="200" required placeholder="Asunto"></textarea>
+                </div>
+                <div class="right-col">
+                    <h2 class="titulo-c">Contacta con nosotros!</h2>
+                    <input type="submit" value="Enviar" id="enviar">
+                </div>
+            </form>
+        </section>
+        <img src="/img/ico/clock.svg" alt="">
     </body>
 </html>
