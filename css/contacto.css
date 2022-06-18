@@ -1,24 +1,126 @@
-*{
-    text-decoration: none;
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
 }
-
+body {
+  height: 800px;
+}
+.contacto {
+  width: 90%;
+  margin: 20px auto 50px auto;
+}
+.titulo-contacto{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.contacto>p{
+    text-align: center; 
+}
+.info-list {
+  list-style-type: none;
+}
+.col-left {
+  width: 30%;
+  height: 450px;
+  margin-left: 5%;
+  display: inline-block;
+  background-color: #2258AA;
+  border-radius: 50px;
+}
+.informacion-contacto {
+  width: 80%;
+  color: #fff;
+  margin: 20px auto;
+}
+.informacion-contacto > h2 {
+  margin: 30px 0;
+}
+.list-item {
+  margin: 20px 0;
+}
+.redes-sociales {
+  margin-top: 60px;
+}
+.col-right {
+  vertical-align: top;
+  width: 55%;
+  margin-left: 5%;
+  margin-top: 50px;
+  display: inline-block;
+}
+.informacion-contacto img {
+  width: 50px;
+  height: 50px;
+}
+.redes-sociales > img {
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  margin-right: 15px;
+  border-radius: 40%;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.redes-sociales > img:hover {
+  background-color: #7492fc;
+}
+.info-list p{
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 12.5px;
+  margin-left: 10px;
+  font-size: 15px;
+}
+.formulario-contacto{
+    vertical-align: top;
+}
+.form-left{
+    width: 40%;
+    display: inline-block;
+    margin-right: 60px;
+}
+.form-right{
+    width: 40%;
+    display: inline-block;
+}
 a[href="contacto.html"] {
-    color: #093AEA;
+  color: #093aea;
 }
-
-input{
+input {
+  border: none;
+  width: 250px;
+  border-bottom: 2px solid #8c8c8c;
+  margin: 20px 0 60px 0;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  font-size: 16px;
+}
+label {
+    font-weight: 600;
+    color: #30375C;
+}
+input, textarea {
+  outline: none;
+}
+textarea{
+    width: 45vw;
+    padding-left: 10px;
+    font-size: 16px;
     border: none;
-    width: 300px;
-    border-bottom: 2px solid #8C8C8C;
+    margin-top: 20px;
+    border-bottom: 2px solid #8c8c8c;
 }
-
-
-input, textarea{
-    outline:none;
-} 
-input:focus{
-    border-bottom: 2px solid #2645B5;
+input,textarea:focus {
+  border-bottom: 2px solid #2645b5;
+}
+input:not(:focus){
+    border-bottom: 2px solid #8c8c8c;
 }

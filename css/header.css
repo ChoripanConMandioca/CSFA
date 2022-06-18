@@ -1,13 +1,12 @@
-
 .logo {
     display: inline-block;
 }
 
-ul {
+.secondary-nav {
     list-style-type: none;
 }
 
-header > nav {
+.navbar {
     display: inline-block;
     margin-left: 30%;
     margin-top:2%; 
@@ -17,12 +16,12 @@ header > nav {
 }
 
 .logo-colegio{
-    width: 95px;
+    width: auto;
     height: 120px;
     padding: 10px 0 0 37px;
 }
 
-li {
+.navbar-item {
     overflow: visible;
     display: inline-block;
     width: 150px;
@@ -30,7 +29,7 @@ li {
     text-align: center;
 }
 
-a {
+.navbar-item a {
     color: rgb(92, 92, 92);
     line-height: 28px;
     -webkit-transition: all 0.3s ease;
@@ -40,7 +39,7 @@ a {
     transition: all 0.3s ease;
 }
 
-a:hover{
+.navbar-item a:hover{
     color: rgb(0, 0, 0);
     
 }

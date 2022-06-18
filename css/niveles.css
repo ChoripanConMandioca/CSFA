@@ -1,10 +1,79 @@
-*{
-    text-decoration: none;
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
+body {
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  background-size: 100%;
 }
-
-a[href="niveles.html"] {
-    color: #093AEA;
+header img {
+  float: left;
+}
+header p {
+  font-size: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  vertical-align: top;
+}
+nav {
+  background: rgb(255, 255, 255);
+  bottom: 0%;
+  margin: 0%;
+  text-align: right;
+  float: right;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  display: inline-block;
+}
+nav li a {
+  color: rgb(0, 0, 0);
+  display: inline-block;
+  font-size: 1;
+  margin: 0 1.5em 0 0;
+  padding: 0.3em 1em;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+nav li a:hover {
+  color: rgb(21, 108, 207);
+}
+section article img {
+  display: inline-block;
+}
+section article p {
+  text-align: right;
+  display: inline-block;
+  vertical-align: top;
+}
+section article {
+  display: inline-block;
+  width: 30%;
+  height: 205px;
+  border: #000000;
+  border-style: outset;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+table p {
+  vertical-align: top;
+  float: right;
+}
+table {
+  background-color: white;
+}
+table td {
+  border: 1ch;
+  border-radius: 15px;
+  border-style: double;
+  border-color: white;
+}
+table {
+  border-radius: 15px;
 }
