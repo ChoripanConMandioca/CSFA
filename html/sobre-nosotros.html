@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Nosotros</title>
+    <link rel="stylesheet" href="/css/header.css" />
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/style-sobrenosotros.css">
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700;800&display=swap");
+      </style>
+</head>
+<body background="/img/Sobre Nosotros.png">
+    <script defer src="/js/header.js"></script>
+    <header id="app-header"></header>
+    <section>
+        <h2>Sobre Nosotros</h2>
+        <p>Todo sobre nuestra intitución</p>
+    </section>
+    
+    <section class="carac"> 
+        <div>
+            <h3 class="titulo-carac">Visión</h3>
+                <p class="desc-carac">Somos una istitución que ofrece una educación de calidad, participativa, transformadora, en fraternidad de amor y misericordia, basada en la Pedagogía de las Hijas de la misericordia.</p>
+         </div>
+          <div>
+              <h3 class="titulo-carac">Misión</h3>
+              <p class="desc-carac">Garantizamos una educación de humanista y personalizante de niños y jóvenes, a través del desarrollo integral de las potencialidades intelectuales, morales y trascendentes del ser humano.</p>
+         </div>
+         <div>
+            <h3 class="titulo-carac">Valores</h3>
+            <p class="desc-carac"> La humildad <br> la tolerancia <br> la fraternidad <br> la misericordia <br> la educación en la fe <br> ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ</p>
+        </div>
+    </section>
+    <div class="container">
+        <div class="card">
+            <div class="content">
+                <h1>Nuestra Historia</h1>
+                <p>El colegio y escuela “San Francisco de Asís”, es una institución católica que pertenece a la congregación Hermanas Hijas de la Misericordia de la Tercera Orden Regular de San Francisco de Asís. <br>
+                    Un grupo de padres de familia, viendo la necesidad de contar con una institución católica, integraron una comisión y solicitaron la apertura, este pedido lo hicieron a la Congregación de las Hermanas de la Misericordia, planteando esta necesidad a la superiora Provincial: Hna. Marcelina Paredes y a su consejo. Luego del aval pertinente, esta petición fue enviada a la Superiora General: Madre Adelina Franov y su consejo, quienes otorgaron el permiso correspondiente. De esta manera comenzó a funcionar el Centro Educativo en el predio perteneciente a la Sra. Margarita Toffoletti con 93 alumnos distribuidos en cuatro grados, siendo la primera directora Sor Clotilde Espinoza en el año 1994. <br>
+                    Ese mismo año, la comisión de padres “Pro Escuela Católica” cuyo lema era “Jesús por María” se acabó a la compra del predio en donde funciona actualmente sobre las calles Von Polesky y Guarambaré. <br>
+                    En la actualidad la escuela Priv. Subv. N° 5547 San Francisco de Asís</p>
+            </div>
+            <a class="more"></a>
+        </div>
+    </div>
+    <script>
+        let more = document.querySelectorAll('.more');
+        for (let i = 0; i < more.length; i++){
+            more[i].addEventListener('click', function(){
+                more[i].parentNode.classList.toggle('active')
+            })
+        } 
+    </script>
+    <section>
+        <h1 class="titulo">Nuestros Directivos</h1>
+        <div class="directora">
+            <div><img src="http://www.misgafasdepasta.com/wp-content/uploads/2018/03/fotos-de-stock-mas-raras-mis-gafas-de-pasta05.jpg" alt=""></div>
+        </div>
+        <div class="directora">
+            <div><img src="http://www.misgafasdepasta.com/wp-content/uploads/2018/03/fotos-de-stock-mas-raras-mis-gafas-de-pasta05.jpg" alt=""></div>
+        </div>
+    </section>
+
+    <script defer src="/js/footer.js"></script>
+    <footer class="pie-pagina" id="app-footer"></footer>
+</body>
+</html>

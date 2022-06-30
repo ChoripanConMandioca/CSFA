@@ -4,24 +4,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Noticias - SFA</title>
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/noticias.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <title>Noticias</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700;800&display=swap');
+    </style>
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="container">
-                <a href="index.html"><img src="/img/logo.png" alt="Logo del colegio San Francisco de Asís" class="logo-colegio"></a>
-                <ul class-="secondary-nav">
-                    <li ><a href="index.html" class="current">Inicio</a></li>
-                    <li><a href="sobre_nosotros.html">Sobre Nosotros</a></li>
-                    <li><a href="niveles.html">Niveles</a></li>
-                    <li><a href="noticias.html">Noticias</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
-                </ul>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v14.0" nonce="eYKCPo4e"></script>
+    <script defer src="/js/header.js"></script>
+    <header id="app-header"></header>
+    <section>
+        <div>Noticias</div>
+        <p>Lo último acerca de nuestra institución</p>
+    </section>
+    <div >
+        <div class="container-slider">
+            <div class="slider" id="slider">
+    
+                <div class="slider__section" >
+                    <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fsfavillaelisa%2Fphotos%2Fa.334194493416729%2F2332299513606207%2F%3Ftype%3D3&show_text=false&width=500" width="500" height="498" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" class="slider__img"></iframe>
+
+                </div>
+    
+                <div class="slider__section">
+                    <iframe src="https://www.facebook.com/plugins/video.php?height=308&href=https%3A%2F%2Fwww.facebook.com%2Fsfavillaelisa%2Fvideos%2F698777554698424%2F&show_text=false&width=560&t=0" style="border:none;overflow:hidden;margin: 50px; margin-left: 165px; " scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true" class="slider__img" >
+                    <p></p></iframe>
+
+                </div>
+    
+                <div class="slider__section">
+                    <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fsfavillaelisa%2Fphotos%2Fa.334434656726046%2F2221769461325880%2F%3Ftype%3D3&show_text=false&width=500" width="500"  style="border:none;overflow:hidden; margin: 50px; margin-left: 0; background: black;" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" class="slider__img"></iframe>
+                </div>
+    
+                <div class="slider__section">
+                    <iframe src="https://www.facebook.com/plugins/video.php?height=308&href=https%3A%2F%2Fwww.facebook.com%2Fsfavillaelisa%2Fvideos%2F1077178733043965%2F&show_text=false&width=560&t=0" width="560" height="308" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true" class="slider__img"></iframe>
+                </div>
+    
+                <div class="slider__btn slider__btn--right" id="btn-right">&#62;</div>
+                <div class="slider__btn slider__btn--left" id="btn-left">&#60;</div>
+    
             </div>
-        </nav>
-    </header>
-    <h1>Noticas Institucionales</h1>
+        </div>
+        
+    </div>
+    <script src="/js/noticias.js"></script>
+    <br><br><br>
+    <script defer src="/js/footer.js"></script>
+    <footer class="pie-pagina" id="app-footer"></footer>
     
 </body>
 </html>

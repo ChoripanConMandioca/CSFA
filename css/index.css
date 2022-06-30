@@ -9,11 +9,7 @@
 a[href="index.html"] {
   color: #093aea;
 }
-/* hero section */
-.hero {
-  margin: 1% 3% 0% 3%;
-  overflow: hidden;
-}
+
 
 .left-col {
   display: inline-block;
