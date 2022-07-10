@@ -112,6 +112,7 @@ input, textarea {
 }
 textarea{
     width: 45vw;
+    height: 35px;
     padding-left: 10px;
     font-size: 16px;
     border: none;
@@ -123,4 +124,13 @@ input,textarea:focus {
 }
 input:not(:focus){
     border-bottom: 2px solid #8c8c8c;
+}
+#enviar {
+  background-color: #2258AA;
+  border: none;
+  font-weight: 700;
+  color:#fff;
+  padding: 10px 50px;
+  border-radius: 20px;
+  border: 0px;
 }
