@@ -1,58 +1,82 @@
-body {
+body{
   color: black;
-  font-family: 'Poppins', sans-serif;
-  font-size: 14px;
   font-weight: normal;
   background-size: 100%;
+  font-family: "Poppins", sans-serif;
 }
 a[href="niveles.html"] {
-  color: #093AEA;
+  color: #093aea;
 }
-header img {
-  float: left;
-}
-section h1 {
-  font-weight: 800;
-  font-size: 50px;
+header p{
+  color: rgb(0, 0, 0);
   text-align: center;
-  margin-top: 0%;
-  margin-bottom: 30px;
-  padding-bottom: 50px;
+  font-size: 70px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+}
+.p{
+  text-align: center;
+  font-size: 35px;
+  font-family: "Poppins", sans-serif;
+  margin-left: 90px;
+  margin-right: 90px;
+  color: rgb(34, 33, 33);
 }
 
-section article img {
-  display: inline-block;
+
+
+table{
+  background-color:  white;
+  border-radius: 10px;
+  margin: auto;
 }
-section article p {
-  text-align: right;
-  display: inline-block;
-  vertical-align: top;
+table img{
+  border-radius: 6px;
+  box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+  cursor: pointer;
+  transition: all 500ms ease-out;
 }
-section article {
-  display: inline-block;
-  width: 30%;
-  height: 205px;
-  border: #000000;
-  border-style: outset;
+table td h2{
+  text-align: center;
 }
-a {
+table td{
+  text-align: center;
+  font-size: 15px;
+}
+table nav{
+  background: rgb(255, 255, 255);
+  bottom: 0%;
+  margin: 0%;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  float: left;
+  margin-left: 35%;
+}
+table nav ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+table nav li
+{
+  display: inline-block;
+  padding-top: 20px;
+}
+table nav li a{
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+  display: inline-block;
+  font-size: 1.5em;
+  margin: 0 1.5em 0 0;
+  padding: 2px 4px;
   text-decoration: none;
-  color: white;
-  font-family: 'Poppins', sans-serif;
+  transition: all 0.5s ease;
 }
-table p {
-  vertical-align: top;
-  float: right;
-}
-table {
-  background-color: white;
-}
-table td {
-  border: 1ch;
-  border-radius: 15px;
-  border-style: double;
-  border-color: white;
-}
-table {
-  border-radius: 15px;
+table nav li a:hover
+{
+background: rgb(74, 149, 219);
+color: rgb(255, 255, 255);
+border-color: #ffffff;
+border-style:outset;
+border-radius: 20px;
 }

@@ -19,7 +19,7 @@ let appFooter = `<div class="grupo-1">
     <h4>Acceso Rápido</h4>
     <ol>
         <li><a href="/html/index.html">Inicio</a></li> 
-        <li><a href="/html/sobre_nosotros.html">Sobre Nosotros</a></li>
+        <li><a href="/html/sobre-nosotros.html">Sobre Nosotros</a></li>
         <li><a href="/html/niveles.html">Niveles</a></li>
         <li><a href="/html/noticias.html">Noticias</a></li>
         <li><a href="/html/contacto.html">Contacto</a></li>
